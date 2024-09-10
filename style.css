@@ -6,17 +6,37 @@
 	border: 1px solid black;
 	padding: 1em;
 }
-nav {
+.exercise-3a nav {
 	background-color: rgb(102, 215, 102);
 }
-main {
+.exercise-3a main {
 	background-color: rgb(222, 154, 222);
 	flex-basis: 10em;
 }
-aside {
+.exercise-3a aside {
 	background-color: rgb(117, 220, 220);
 }
-nav, aside  {
+.exercise-3a nav, .exercise-3a aside  {
 	flex-grow: 1;
 	flex-basis: 0;
+}
+
+
+.exercise-3b {
+	height: 10em;
+	border: 1px solid black;
+	margin-top: 2em;
+	width: 15em;
+	display: flex;
+	flex-direction: column;
+}
+.exercise-3b header {
+	background-color: rgb(221, 152, 220);
+}
+.exercise-3b main {
+	flex-grow: 1;
+	background-color: rgb(122, 122, 218);
+}
+.exercise-3b footer {
+	background-color: rgb(141, 107, 107);
 }
