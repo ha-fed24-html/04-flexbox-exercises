@@ -1,0 +1,33 @@
+.order-summary {
+	margin-top: 2em;
+	display: flex;
+	flex-direction: column;
+	width: 20em;
+	/* border: 3px dashed red; */
+	border-radius: 0.5em;
+	align-items: center;
+}
+.header-image {
+	height: 8.5em;
+}
+.header-container {
+	background-color: blue;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+}
+.order-summary h2 {
+	margin-bottom: 0;
+}
+.order-summary p {
+	text-align: center;
+	font-size: 80%;
+	color: rgb(186, 186, 186);
+	margin-top: 0.4em;
+}
+.note-and-price {
+	display: flex;
+	background-color: hotpink;
+}
