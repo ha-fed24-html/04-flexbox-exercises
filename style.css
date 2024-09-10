@@ -1,0 +1,22 @@
+.exercise-3a {
+	display: flex;
+	flex-direction: row;
+}
+.exercise-3a * {
+	border: 1px solid black;
+	padding: 1em;
+}
+nav {
+	background-color: rgb(102, 215, 102);
+}
+main {
+	background-color: rgb(222, 154, 222);
+	flex-basis: 10em;
+}
+aside {
+	background-color: rgb(117, 220, 220);
+}
+nav, aside  {
+	flex-grow: 1;
+	flex-basis: 0;
+}
